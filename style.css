@@ -1,0 +1,287 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Specifiche Header */
+
+.header1 {
+  height: 40px;
+  border-bottom: 1px grey solid;
+  margin: 0;
+  padding: 0;
+}
+
+.header2 {
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
+
+.hackfloat:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  position: fixed;
+  height: 100px;
+  width: 100vw;
+  top: 0;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.new {
+  background-color: #00D7D2;
+  margin: 10px 10px 10px 0;
+  padding: 1px 5px;
+  margin-left: 20px;
+  border-radius: 5px;
+  float: left;
+  text-align: center;
+}
+
+header p {
+  float: left;
+  line-height: 40px;
+  font-weight: bold;
+  color: #031B76;
+  margin: 0;
+}
+
+header p:hover {
+  color: #0049FF;
+  cursor: pointer;
+}
+
+.nav1 {
+  float: right;
+  line-height: 40px;
+  font-weight: bold;
+  color: #031B76;
+}
+
+.li {
+  float: left;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.li:hover {
+  color: #0049FF;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 40px;
+  margin: 10px 0;
+}
+
+.logo {
+  float: left;
+}
+
+.nav2 {
+  float: left;
+  line-height: 60px;
+  font-weight: bold;
+  color: #031B76;
+}
+
+.sign {
+  float: right;
+  font-weight: bold;
+  color: #0049FF;
+  background-color: #fff;
+  height: 40px;
+  line-height: 40px;
+  margin: 10px 20px 10px 0;
+  padding: 0 20px;
+  border-radius: 5px;
+  border: 2px solid #0049FF;
+  text-align: center;
+}
+
+.sign:hover {
+  background-color: #0049FF;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+/* Specifiche Sezione 1 Welcome */
+
+.sez1 {
+  margin-top: 100px;
+  background-image: url("img/bg.png");
+  background-size: contain;
+}
+
+.welcome {
+  color: #fff;
+  margin-top: 150px;
+}
+
+.welcome h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.deploy {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.deploy input {
+  display: block;
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 5px;
+  height: 50px;
+  padding: 10px;
+}
+
+.create, .sign-up {
+  width: 90%;
+  margin: 20px auto;
+  border-radius: 5px;
+  height: 50px;
+  border: grey solid 1px;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.create:hover, .sign-up:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.create {
+  background-color: #0CB863;
+  color: #fff;
+  border: none;
+}
+
+.terms {
+  width: 90%;
+  margin: 20px auto;
+  font-size: 0.8em;
+}
+
+@media all and (max-width: 991px) {
+  header {
+    display: none;
+  }
+  .sez1 {
+    margin-top: 0;
+  }
+  .welcome {
+    margin-top: 0;
+  }
+}
+
+
+/* Specifiche Sezione 2 Innovative */
+
+.sez2 {
+  background-color: #F3F5F9;
+  text-align: center;
+}
+
+.sez2 p {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  color: grey;
+}
+
+.sez2 img {
+  width: 100%;
+}
+
+.loghi {
+  text-align: center;
+}
+
+.sez2 a {
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  color: #0049FF;
+}
+
+.view {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+
+/* Specifiche Sezione 3 Deploy */
+
+.sez3 {
+  margin: 100px auto;
+}
+
+.deploy-intro {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.deploy-intro h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #031B76;
+}
+
+.deploy-menu-nav {
+  margin-bottom: 50px;
+}
+
+.deploy-menu li {
+  list-style-type: none;
+  padding-left: 20px;
+  line-height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+  color: grey;
+  border-left: 2px gray solid;
+}
+
+.deploy-menu li:hover {
+  color: #031B76;
+  cursor: pointer;
+  border-left: 3px #031B76 solid;
+}
+
+.deploy-menu h4 {
+  font-weight: bold;
+}
+
+.kubernetes img, .clickapp img, .flexible img, .global img {
+  width: 50px;
+}
+
+/* Specifiche Sezione 4 Designed */
+
+.sez4 {
+  padding-top: 100px;
+  background-color: #F3F5F9;
+}
+
+.designed-intro {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.designed-intro h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #031B76;
+}
