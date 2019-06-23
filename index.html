@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Digital Ocean</title>
+    <title>DigitalOcean</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,203 +11,49 @@
 
   <body>
 
-
     <header>
-      <!-- Prima riga dell'header -->
+
       <div class="header1">
-        <div class="new">
-          NEW
+        <div class="learnmore">
+          <div class="new">
+            NEW
+          </div>
+          <a href="#">DigitalOcean Kubernetes is now Generally Available. Learn more ></a>
         </div>
-        <p>
-          DigitalOcean Kubernetes is now Generally Available. Learn more >
-        </p>
         <nav class="nav1">
-          <ul>
-            <li class="li">Docs</li>
-            <li class="li">Support</li>
-            <li class="li">Sales</li>
-            <li class="li">Log in</li>
-          </ul>
+          <a href="#">Docs</a>
+          <a href="#">Support</a>
+          <a href="#">Sales</a>
+          <a href="#">Log in</a>
         </nav>
       </div>
-      <!-- Seconda riga dell'header -->
+
       <div class="header2">
         <div class="logo">
           <img src="img/logo.png" alt="logo">
+          <nav class="nav2">
+            <a href="#">Products ▼</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Customers</a>
+            <a href="#">Partners</a>
+            <a href="#">Community ▼</a>
+            <a href="#">Pricing</a>
+          </nav>
         </div>
-        <nav class="nav2">
-          <ul>
-            <li class="li">Products ▼</li>
-            <li class="li">Marketplace</li>
-            <li class="li">Customers</li>
-            <li class="li">Partners</li>
-            <li class="li">Community ▼</li>
-            <li class="li">Pricing</li>
-          </ul>
-        </nav>
-        <div class="sign">
+        <div class="header-signup">
           Sign Up
         </div>
       </div>
-    </header>
 
+    </header>
 
     <main>
 
-      <!-- Sezione 1 Welcome -->
-      <section class="sez1">
-        <div class="container">
-          <div class="row">
-            <div class="welcome col-xs-12 col-md-6">
-              <h1>Welcome to the developer cloud</h1>
-              <h3>We make it simple to launch in the cloud and scale up as you grow—whether you’re running one virtual machine or ten thousand.</h3>
-            </div>
-            <div class="deploy col-xs-12 col-md-offset-2 col-md-4">
-              <h2>Deploy in seconds</h2>
-              <form action="index.html" method="post">
-                <input type="text" name="email" placeholder="Email address">
-                <input type="password" name="password" placeholder="Password">
-              </form>
-              <div class="create">
-                <p>Create your account</p>
-              </div>
-              <div class="sign-up">
-                <p>Sign up with Google</p>
-              </div>
-              <div class="terms">
-                <p>By signing up you agree to the <a href="#">Terms of Service</a>.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Sezione 2 Innovative -->
-      <section class="sez2">
-        <p>INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</p>
-        <div class="container">
-          <div class="row">
-            <div class="loghi col-xs-6 col-md-2">
-              <img src="img/logo1.png" alt="logo-docker">
-            </div>
-            <div class="loghi col-xs-6 col-md-2">
-              <img src="img/logo2.png" alt="logo-gitlab">
-            </div>
-            <div class="loghi col-xs-6 col-md-2">
-              <img src="img/logo3.png" alt="logo-slack">
-            </div>
-            <div class="loghi col-xs-6 col-md-2">
-              <img src="img/logo4.png" alt="logo-hashicorp">
-            </div>
-            <div class="loghi col-xs-6 col-md-2">
-              <img src="img/logo5.png" alt="logo-wework">
-            </div>
-            <div class="loghi col-xs-6 col-md-2">
-              <img src="img/logo6.png" alt="logo-splunk">
-            </div>
-            <div class="view col-xs-12">
-              <a href="#">View customer stories ></a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Sezione 3 Deploy -->
-      <section class="sez3">
-        <div class="container">
-          <div class="row">
-            <div class="deploy-intro">
-              <h2>Deploy and scale seamlessly</h2>
-              <h4>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="deploy-menu">
-              <div class="deploy-menu-nav col-md-offset-2 col-md-2 col-xs-offset-1 col-xs-11">
-                <ul>
-                  <li>Deploy</li>
-                  <li>Scale</li>
-                  <li>Store</li>
-                  <li>Secure</li>
-                  <li>Monitor</li>
-                </ul>
-              </div>
-              <div class="deploy-menu-1 col-md-offset-1 col-md-3 col-xs-offset-1 col-xs-5">
-                <div class="kubernetes">
-                  <img src="img/deploy1.png" alt="kubernetes">
-                  <h4>Kubernetes in minutes</h4>
-                  <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
-                </div>
-                <div class="clickapp">
-                  <img src="img/deploy3.png" alt="clickapp">
-                  <h4>1-Click App Marketplace</h4>
-                  <p>Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
-                </div>
-              </div>
-              <div class="deploy-menu-2 col-md-3 col-xs-5">
-                <div class="flexible">
-                  <img src="img/deploy2.png" alt="flexible">
-                  <h4>Flexible compute types</h4>
-                  <p>With Standard, General Purpose, or CPU-Optimized Droplets, choose the right infrastructure for your workload.</p>
-                </div>
-                <div class="global">
-                  <img src="img/deploy4.png" alt="global">
-                  <h4>Global availability</h4>
-                  <p>Deploy to any of our data center locations – New York, SF, London, Amsterdam, Bangalore, and more.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Sezione 4 Designed -->
-      <section class="sez4">
-        <div class="container">
-          <div class="row">
-            <div class="designed-intro">
-              <h2>Designed for developers</h2>
-              <h4>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</h4>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Sezione 5 Built -->
-      <section class="sez5">
-        <div class="container">
-
-        </div>
-      </section>
-
-      <!-- Sezione 6 World -->
-      <section class="sez6">
-        <div class="container">
-
-        </div>
-      </section>
-
-      <!-- Sezione 7 Love -->
-      <section class="sez7">
-        <div class="container">
-
-        </div>
-      </section>
-
-      <!-- Sezione 8 Get -->
-      <section class="sez8">
-        <div class="container">
-
-        </div>
-      </section>
-
     </main>
-
 
     <footer>
 
     </footer>
-
 
   </body>
 
